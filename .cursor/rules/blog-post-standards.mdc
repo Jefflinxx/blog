@@ -1,0 +1,39 @@
+---
+description: "Standards for Markdown blog posts, metadata, excerpts, and SEO fields."
+globs:
+  - "docs/writing/posts/**/*.md"
+alwaysApply: false
+---
+
+# Blog Post Standards
+
+Every post must include frontmatter with:
+
+```yaml
+---
+title: "Post Title"
+date: YYYY-MM-DD
+description: "A clear 50-160 character summary for search and sharing."
+categories:
+  - Notes
+tags:
+  - blog
+authors:
+  - you
+draft: false
+---
+```
+
+## Content Rules
+
+- Use one H1 matching the post title.
+- Put `<!-- more -->` after the opening excerpt when the post is ready to publish.
+- Keep headings direct and descriptive.
+- Use descriptive links.
+- Preserve the author's voice when editing drafts.
+
+## Checks
+
+- Run `npm run seo:check`.
+- Run `npm run content-map:generate` after meaningful content changes.
+- Run `npm run crosslink:suggest` before publishing.

@@ -1,0 +1,26 @@
+---
+description: "Review blog posts for natural internal links using the generated content map."
+globs:
+  - "docs/writing/posts/**/*.md"
+alwaysApply: false
+---
+
+# Blog Cross-Linking
+
+When creating or editing posts in `docs/writing/posts/`, review cross-link opportunities before finalizing.
+
+## Process
+
+1. Run `npm run content-map:generate` so `content-map.json` reflects current posts.
+2. Run `npm run crosslink:suggest` for a lightweight local pass.
+3. Read the current post and the most relevant `content-map.json` entries.
+4. Add only natural links that improve reader understanding.
+
+## Standards
+
+- Aim for 2-5 internal links in a normal post.
+- Use relative links to post files, for example `./2026-05-24-first-post.md`.
+- Use descriptive anchor text that explains the destination.
+- Prefer foundational, sequential, complementary, and case-study links.
+- Do not force links into sentences where they interrupt the voice.
+- Verify the linked file exists before adding the link.

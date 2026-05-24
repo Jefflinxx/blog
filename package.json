@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": ".venv/bin/mkdocs serve",
+    "build": ".venv/bin/mkdocs build",
+    "post:new": "node scripts/new-post.mjs",
+    "seo:check": "node scripts/seo-check.mjs",
+    "desc:generate": "node scripts/generate-desc.mjs",
+    "sitemap:generate": "node scripts/generate-sitemap.mjs",
+    "content-map:generate": "node scripts/generate-content-map.mjs",
+    "crosslink:suggest": "node scripts/suggest-crosslinks.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "docs/writing/posts/2026-05-24-first-post.md": {
+    "title": "First Post",
+    "slug": "first-post",
+    "url": "/writing/first-post/",
+    "date": "2026-05-24",
+    "draft": false,
+    "categories": [
+      "Notes"
+    ],
+    "tags": [
+      "blog",
+      "setup"
+    ],
+    "summary": "A short starter post used to verify the blog structure, metadata, and publishing workflow.",
+    "terms": [
+      "the",
+      "post",
+      "and",
+      "blog",
+      "can",
+      "each",
+      "metadata",
+      "workflow",
+      "check",
+      "content",
+      "create",
+      "file"
+    ],
+    "hash": "c5355478f92aefe388ac0efec471b64e0809a0d15846d05d255e08e13d1f9e1d"
+  },
+  "docs/writing/posts/2026-05-24-兩隻老虎的故事.md": {
+    "title": "兩隻老虎的故事",
+    "slug": "兩隻老虎的故事",
+    "url": "/writing/兩隻老虎的故事/",
+    "date": "2026-05-24",
+    "draft": false,
+    "categories": [
+      "Stories"
+    ],
+    "tags": [
+      "story",
+      "practice",
+      "writing"
+    ],
+    "summary": "一則關於兩隻老虎學會合作的小故事，用來測試 blog 的文章格式與發布流程。",
+    "terms": [
+      "兩隻老虎的故事",
+      "blog",
+      "一則關於兩隻老虎學會合作的小故事",
+      "一隻叫阿山",
+      "一隻叫阿河",
+      "不是永遠獨自完成所有事",
+      "也變得更安靜",
+      "任何困難都能被牠推開",
+      "任何獵物都逃不過牠",
+      "但牠們一直以為自己不需要別人幫忙",
+      "但這裡的泥太滑了",
+      "但還是點頭"
+    ],
+    "hash": "94fa99b5644151c5f3cdce5228f99f76a8aa16279958dc8b64e4dac43d9258a4"
+  }
+}
