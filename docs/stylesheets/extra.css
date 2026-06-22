@@ -21,3 +21,13 @@
 .md-typeset a {
   text-underline-offset: 0.18em;
 }
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary
+    .md-nav--primary
+    > .md-nav__list
+    > .md-nav__item--nested
+    > .md-nav__container {
+    display: none;
+  }
+}

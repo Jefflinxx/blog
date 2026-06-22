@@ -9,6 +9,7 @@ theme:
   custom_dir: overrides
   language: zh-TW
   features:
+    - navigation.tabs
     - navigation.indexes
     - navigation.sections
     - navigation.top
@@ -24,9 +25,16 @@ theme:
     code: JetBrains Mono
 
 nav:
-  - Home: index.md
   - Writing:
       - writing/index.md
+
+exclude_docs: |
+  user-manual.md
+  books.md
+  resume.md
+
+not_in_nav: |
+  index.md
 
 plugins:
   - search

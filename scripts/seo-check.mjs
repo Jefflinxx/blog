@@ -26,7 +26,7 @@ for (const file of await listPosts()) {
     failures.push(`${rel}: date should use YYYY-MM-DD`);
   }
 
-  const expectedSlugPart = slugify(post.data.title ?? "");
+  const expectedSlugPart = post.data.slug ?? slugify(post.data.title ?? "");
   if (expectedSlugPart && !path.basename(file, ".md").includes(expectedSlugPart)) {
     failures.push(`${rel}: filename slug does not match title`);
   }

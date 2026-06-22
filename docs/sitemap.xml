@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://jefflinxx.github.io/blog/</loc></url>
   <url><loc>https://jefflinxx.github.io/blog/writing/</loc></url>
-  <url><loc>https://jefflinxx.github.io/blog/writing/first-post/</loc></url>
   <url><loc>https://jefflinxx.github.io/blog/writing/%E5%85%A9%E9%9A%BB%E8%80%81%E8%99%8E%E7%9A%84%E6%95%85%E4%BA%8B/</loc></url>
+  <url><loc>https://jefflinxx.github.io/blog/writing/async-await-%E9%9D%9E%E5%90%8C%E6%AD%A5%E8%AA%9E%E6%B3%95/</loc></url>
+  <url><loc>https://jefflinxx.github.io/blog/writing/first-post/</loc></url>
 </urlset>

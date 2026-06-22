@@ -59,5 +59,36 @@
       "但還是點頭"
     ],
     "hash": "94fa99b5644151c5f3cdce5228f99f76a8aa16279958dc8b64e4dac43d9258a4"
+  },
+  "docs/writing/posts/2026-06-22-async-await-非同步語法.md": {
+    "title": "async/await 非同步語法?",
+    "slug": "async-await-非同步語法",
+    "url": "/writing/async-await-非同步語法/",
+    "date": "2026-06-22",
+    "draft": false,
+    "categories": [
+      "Software Engineering"
+    ],
+    "tags": [
+      "JavaScript",
+      "async-await",
+      "frontend"
+    ],
+    "summary": "整理 async/await 為什麼被稱為非同步語法，以及它如何用同步寫法控制 JavaScript 的非同步流程。",
+    "terms": [
+      "async",
+      "await",
+      "promise",
+      "api",
+      "javascript",
+      "function",
+      "非同步語法",
+      "callback",
+      "event",
+      "loop",
+      "thread",
+      "concurrency"
+    ],
+    "hash": "8bd6269205b06102c8c1e8b1b542e38c7faf6d6d7742b57e5d23448d88e3124f"
   }
 }
