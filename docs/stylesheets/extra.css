@@ -22,6 +22,11 @@
   text-underline-offset: 0.18em;
 }
 
+.md-post__header > .md-post__authors,
+.md-sidebar--post .md-post__authors {
+  display: none !important;
+}
+
 @media screen and (min-width: 76.25em) {
   .md-sidebar--primary
     .md-nav--primary
