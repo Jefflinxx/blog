@@ -1,0 +1,38 @@
+:root {
+  --md-primary-fg-color: #111111;
+  --md-accent-fg-color: #0f766e;
+}
+
+.md-typeset {
+  font-size: 0.78rem;
+  line-height: 1.72;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: 0;
+}
+
+.md-typeset h1 {
+  font-weight: 760;
+}
+
+.md-typeset a {
+  text-underline-offset: 0.18em;
+}
+
+.md-post__header > .md-post__authors,
+.md-sidebar--post .md-post__authors {
+  display: none !important;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary
+    .md-nav--primary
+    > .md-nav__list
+    > .md-nav__item--nested
+    > .md-nav__container {
+    display: none;
+  }
+}
