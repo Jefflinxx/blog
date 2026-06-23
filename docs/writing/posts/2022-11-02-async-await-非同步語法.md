@@ -1,6 +1,6 @@
 ---
 title: "async/await 非同步語法?"
-date: 2026-06-22
+date: 2022-11-02
 slug: async-await-非同步語法
 description: "整理 async/await 為什麼被稱為非同步語法，以及它如何用同步寫法控制 JavaScript 的非同步流程。"
 categories:
@@ -46,7 +46,7 @@ draft: false
 
 它讓你能「用同步的寫法控制非同步流程」。
 
-!!! note "PS"
+!!! note "PS1"
 
     細講的話，`await` 這邊也不是讓他非同步變成同步，只是類似而已。
 

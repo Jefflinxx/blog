@@ -85,3 +85,7 @@ Useful internal-link patterns:
 - Do not add a heavy framework unless there is a concrete need.
 - Keep scripts dependency-light.
 - Prefer structured frontmatter changes over ad hoc string edits.
+
+# 我的規則
+
+- 如果我請你幫我寫入文章時，不要自動化部署，除非我叫你部署。

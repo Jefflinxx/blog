@@ -1,70 +1,9 @@
 {
-  "docs/writing/posts/2026-05-24-first-post.md": {
-    "title": "First Post",
-    "slug": "first-post",
-    "url": "/writing/first-post/",
-    "date": "2026-05-24",
-    "draft": false,
-    "categories": [
-      "Notes"
-    ],
-    "tags": [
-      "blog",
-      "setup"
-    ],
-    "summary": "A short starter post used to verify the blog structure, metadata, and publishing workflow.",
-    "terms": [
-      "the",
-      "post",
-      "and",
-      "blog",
-      "can",
-      "each",
-      "metadata",
-      "workflow",
-      "check",
-      "content",
-      "create",
-      "file"
-    ],
-    "hash": "c5355478f92aefe388ac0efec471b64e0809a0d15846d05d255e08e13d1f9e1d"
-  },
-  "docs/writing/posts/2026-05-24-兩隻老虎的故事.md": {
-    "title": "兩隻老虎的故事",
-    "slug": "兩隻老虎的故事",
-    "url": "/writing/兩隻老虎的故事/",
-    "date": "2026-05-24",
-    "draft": false,
-    "categories": [
-      "Stories"
-    ],
-    "tags": [
-      "story",
-      "practice",
-      "writing"
-    ],
-    "summary": "一則關於兩隻老虎學會合作的小故事，用來測試 blog 的文章格式與發布流程。",
-    "terms": [
-      "兩隻老虎的故事",
-      "blog",
-      "一則關於兩隻老虎學會合作的小故事",
-      "一隻叫阿山",
-      "一隻叫阿河",
-      "不是永遠獨自完成所有事",
-      "也變得更安靜",
-      "任何困難都能被牠推開",
-      "任何獵物都逃不過牠",
-      "但牠們一直以為自己不需要別人幫忙",
-      "但這裡的泥太滑了",
-      "但還是點頭"
-    ],
-    "hash": "94fa99b5644151c5f3cdce5228f99f76a8aa16279958dc8b64e4dac43d9258a4"
-  },
-  "docs/writing/posts/2026-06-22-async-await-非同步語法.md": {
+  "docs/writing/posts/2022-11-02-async-await-非同步語法.md": {
     "title": "async/await 非同步語法?",
     "slug": "async-await-非同步語法",
     "url": "/writing/async-await-非同步語法/",
-    "date": "2026-06-22",
+    "date": "2022-11-02",
     "draft": false,
     "categories": [
       "Software Engineering"
@@ -76,19 +15,176 @@
     ],
     "summary": "整理 async/await 為什麼被稱為非同步語法，以及它如何用同步寫法控制 JavaScript 的非同步流程。",
     "terms": [
-      "async",
       "await",
-      "promise",
+      "async",
       "api",
-      "javascript",
-      "function",
       "非同步語法",
-      "callback",
+      "note",
+      "concurrency",
       "event",
+      "javascript",
       "loop",
-      "thread",
-      "concurrency"
+      "parallelism",
+      "ps1",
+      "ps2"
     ],
-    "hash": "8bd6269205b06102c8c1e8b1b542e38c7faf6d6d7742b57e5d23448d88e3124f"
+    "hash": "1b419a397fe94d058790be09afdeded946c022d3fd27625adc6f562775b8906c"
+  },
+  "docs/writing/posts/2025-08-10-我設計的提醒休息時鐘.md": {
+    "title": "我設計的提醒休息時鐘！瀏覽器強制休息！",
+    "slug": "我設計的提醒休息時鐘",
+    "url": "/writing/我設計的提醒休息時鐘/",
+    "date": "2025-08-10",
+    "draft": false,
+    "categories": [
+      "Notes"
+    ],
+    "tags": [
+      "productivity",
+      "web-app",
+      "eye-care"
+    ],
+    "summary": "分享一個用 20-20-20 方法設計的 Web App，透過瀏覽器通知提醒自己定時休息眼睛。",
+    "terms": [
+      "app",
+      "web",
+      "我設計的提醒休息時鐘",
+      "瀏覽器強制休息",
+      "20-20-20",
+      "github",
+      "https",
+      "jefflinxx",
+      "timer",
+      "不管在做什麼",
+      "並把提醒方式設定成",
+      "但因為我想要在公司使用"
+    ],
+    "hash": "18b235c1948a8887aa164a8b098761da21c716de4b7b8312fc6ad1ea83184e7f"
+  },
+  "docs/writing/posts/2025-10-25-wfh-自律小技巧.md": {
+    "title": "WFH 自律小技巧",
+    "slug": "wfh-自律小技巧",
+    "url": "/writing/wfh-自律小技巧/",
+    "date": "2025-10-25",
+    "draft": false,
+    "categories": [
+      "Notes"
+    ],
+    "tags": [
+      "WFH",
+      "productivity",
+      "focus"
+    ],
+    "summary": "整理 WFH 時幫助自律、專注、維持作息與提升長期精神力的幾個實用小技巧。",
+    "terms": [
+      "wfh",
+      "自律小技巧",
+      "com",
+      "daily",
+      "f75qtefzqko",
+      "https",
+      "note",
+      "report",
+      "routine",
+      "watch",
+      "www",
+      "youtube"
+    ],
+    "hash": "260a3e44e9e62d91bc939a130fbe5381cbd28054d6a2b433f72b9d0162e6efc8"
+  },
+  "docs/writing/posts/2025-12-03-saas-地端客製化架構挑戰.md": {
+    "title": "我如何處理 SaaS 與地端客製化並行的架構挑戰",
+    "slug": "saas-地端客製化架構挑戰",
+    "url": "/writing/saas-地端客製化架構挑戰/",
+    "date": "2025-12-03",
+    "draft": false,
+    "categories": [
+      "Software Engineering"
+    ],
+    "tags": [
+      "architecture",
+      "SaaS",
+      "migration",
+      "engineering"
+    ],
+    "summary": "整理一次 SaaS 與地端客製化並行維護的工程挑戰，以及我在架構一致性、客製化與長期成本之間的取捨。",
+    "terms": [
+      "saas",
+      "workflow",
+      "branch",
+      "image",
+      "repo",
+      "也包含",
+      "我如何處理",
+      "未來同步",
+      "第一種做法",
+      "第二種做法",
+      "維護成本",
+      "與地端客製化並行的架構挑戰"
+    ],
+    "hash": "44a090b28ff73cb622ae1bda49c0c08b32cb0ab08afd6a3d2efa41a21fafb42f"
+  },
+  "docs/writing/posts/2026-01-13-選色配色的重要性.md": {
+    "title": "選色配色的重要性",
+    "slug": "選色配色的重要性",
+    "url": "/writing/選色配色的重要性/",
+    "date": "2026-01-13",
+    "draft": false,
+    "categories": [
+      "Design"
+    ],
+    "tags": [
+      "design",
+      "color",
+      "ui"
+    ],
+    "summary": "從內部績效評核系統與 BookHub 的經驗，記錄選色與配色比例對使用者情緒和產品感受的影響。",
+    "terms": [
+      "bookhub",
+      "選色配色的重要性",
+      "一個無意間做對的決定",
+      "一手包辦設計到前端開發",
+      "一樣用了粉紅色",
+      "三年前做的一個系統設計",
+      "不一樣的結果",
+      "不是因為我很會設計",
+      "之前在公司做過一個內部的績效評核系統",
+      "也剛好用在對的比例",
+      "也是後來我才慢慢理解",
+      "也許正因為這樣"
+    ],
+    "hash": "06e5f98cc67ebfb4d68f14aafe995d4f623e8d35e25bd995b999b367f16a70eb"
+  },
+  "docs/writing/posts/2026-04-05-how-does-the-internet-work.md": {
+    "title": "How Does the Internet Work?",
+    "slug": "how-does-the-internet-work",
+    "url": "/writing/how-does-the-internet-work/",
+    "date": "2026-04-05",
+    "draft": false,
+    "categories": [
+      "Software Engineering"
+    ],
+    "tags": [
+      "Networking",
+      "Internet",
+      "LAN",
+      "WAN"
+    ],
+    "summary": "用 LAN、Router、ISP、Routing、CDN 和 WAN 的角度，整理 Internet 如何把不同網路連在一起。",
+    "terms": [
+      "lan",
+      "internet",
+      "isp",
+      "router",
+      "network",
+      "server",
+      "routing",
+      "wan",
+      "switch",
+      "google",
+      "cdn",
+      "area"
+    ],
+    "hash": "1dd66469ad7dc797c9a4740c4a2c4eac13b24c5fad7c51c81823283808923ad2"
   }
 }
